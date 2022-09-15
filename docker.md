@@ -12,6 +12,7 @@ Compact the VHDX with the following
 4.   detail vdisk
 5.   compact vdisk
 
+```
 C:\ diskpart
 
 DISKPART> select vdisk file="C:\Users\aaa\AppData\Local\Docker\wsl\data\ext4.vhdx"
@@ -47,6 +48,4 @@ Filename: C:\Users\aaa\AppData\Local\Docker\wsl\data\ext4.vhdx
 Is Child: No
 Parent Filename:
 Associated disk#: Not found.
-
-D
-
+```
