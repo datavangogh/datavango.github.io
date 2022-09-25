@@ -9,6 +9,10 @@ kubectl get pods -o wide
 kubectl get rc,services
 kubectl get node
 kubectl cluster-info
+kubectl describe deployment
+kubectl get pods --field-selector=status.phase=Pending
+kubectl describe pod postgres-89784f745-6nq8s
+kubectl uncordon docker-desktop
 ```
 
 
