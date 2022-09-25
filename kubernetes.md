@@ -14,7 +14,8 @@ kubectl get pods --field-selector=status.phase=Pending
 kubectl describe pod postgres-89784f745-6nq8s
 kubectl uncordon docker-desktop
 ```
-
+### reference documentation
+https://jamesdefabia.github.io/docs/reference/
 
 ### Fix - pending schedule
 ```
